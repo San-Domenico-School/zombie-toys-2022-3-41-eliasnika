@@ -2690,6 +2690,11 @@ PrefabInstance:
       propertyPath: isInvulnerable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8363509514241871241, guid: 0fe5662adbcfec249ac3503d86debeed,
+        type: 3}
+      propertyPath: strikeableMask.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 9022508746827671374, guid: 0fe5662adbcfec249ac3503d86debeed,
         type: 3}
       propertyPath: prototypeAttack
