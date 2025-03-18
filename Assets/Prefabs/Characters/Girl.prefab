@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e790082644efe6241bc7ebb05c9afeed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cooldown: 1
+  Cooldown: 0
   damage: 20
-  range: 20
+  range: 30
   strikeableMask:
     serializedVersion: 2
     m_Bits: 512
