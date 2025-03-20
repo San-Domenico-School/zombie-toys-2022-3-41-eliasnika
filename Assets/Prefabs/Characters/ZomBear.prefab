@@ -204,7 +204,7 @@ MonoBehaviour:
   animator: {fileID: 4878831032284155085}
   audioSource: {fileID: 2408819314060950770}
   capsuleCollider: {fileID: 2278529575305879523}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
   isInvulnerable: 0
 --- !u!195 &4698852536632536091
 NavMeshAgent:
