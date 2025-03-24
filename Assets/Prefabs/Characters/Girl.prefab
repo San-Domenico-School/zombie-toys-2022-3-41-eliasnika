@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0.13, y: 0.88, z: 1.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2769239047204871311}
   m_Father: {fileID: 2100451162274189773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &5672840095497024407
@@ -253,6 +254,165 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1819042833096695303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2769239047204871311}
+    m_Modifications:
+    - target: {fileID: 142556, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_Name
+      value: LightningBolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 12037628, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+      propertyPath: m_Loop
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71a7c91a5d1ad734f99f783e45147614, type: 3}
+--- !u!114 &1819042833086869547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11415084, guid: 71a7c91a5d1ad734f99f783e45147614,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819042833096695303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c6f9c0e971b8e489125a9d3d9e2840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1819042833096812991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423864, guid: 71a7c91a5d1ad734f99f783e45147614,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819042833096695303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2769239047205275915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 583274214367012741}
+    m_Modifications:
+    - target: {fileID: 138964, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_Name
+      value: LightningAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.123
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.948
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11443012, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: lightningHit
+      value: 
+      objectReference: {fileID: 11424168, guid: 5590aa39b060d56418a56453ad839719,
+        type: 3}
+    - target: {fileID: 11443012, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: lightningBolt
+      value: 
+      objectReference: {fileID: 1819042833086869547}
+    - target: {fileID: 11443012, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+      propertyPath: strikeableMask.m_Bits
+      value: 1536
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819042833096812991}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc, type: 3}
+--- !u!4 &2769239047204871311 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 415108, guid: bdacd4f7e5f0cdb46b3cbd53de3002dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2769239047205275915}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6900087549652933406
 PrefabInstance:
   m_ObjectHideFlags: 0
