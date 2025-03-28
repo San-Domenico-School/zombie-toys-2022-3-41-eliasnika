@@ -840,8 +840,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
-  m_fontSizeBase: 52
+  m_fontSize: 170.24
+  m_fontSizeBase: 170.24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -933,6 +933,7 @@ GameObject:
   - component: {fileID: 529382227}
   - component: {fileID: 529382229}
   - component: {fileID: 529382228}
+  - component: {fileID: 529382230}
   m_Layer: 0
   m_Name: RoundText
   m_TagString: Untagged
@@ -956,7 +957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -528.6, y: 0}
+  m_AnchoredPosition: {x: -635, y: 0}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &529382228
@@ -1056,6 +1057,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529382226}
   m_CullTransparentMesh: 1
+--- !u!95 &529382230
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529382226}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 605efd7ad663fe84b9101ac1c6522c29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &561940431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,8 +2058,10 @@ MonoBehaviour:
   spawners:
   - {fileID: 1197877541}
   round: 1
-  enemiesPerRound: 3
+  enemiesPerRound: 5
   roundText: {fileID: 529382228}
+  roundAnimator: {fileID: 529382230}
+  roundSFX: {fileID: 0}
 --- !u!4 &1054803813
 Transform:
   m_ObjectHideFlags: 0
@@ -2507,6 +2531,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1582797369533432682, guid: dd22bd5d7fcad594bb656d92183a2a29,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1582797369533432686, guid: dd22bd5d7fcad594bb656d92183a2a29,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
@@ -4069,6 +4098,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6113032078854713981, guid: 0fe5662adbcfec249ac3503d86debeed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6270192682778366809, guid: 0fe5662adbcfec249ac3503d86debeed,
         type: 3}
       propertyPath: animator
@@ -4079,6 +4113,11 @@ PrefabInstance:
       propertyPath: deathClip
       value: 
       objectReference: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+    - target: {fileID: 7452149585739595748, guid: 0fe5662adbcfec249ac3503d86debeed,
+        type: 3}
+      propertyPath: maxHealth
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7452149585739595748, guid: 0fe5662adbcfec249ac3503d86debeed,
         type: 3}
       propertyPath: audioSource
