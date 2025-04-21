@@ -957,7 +957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 92.47, y: 4.399994}
+  m_AnchoredPosition: {x: 351, y: -132}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &529382228
@@ -2060,7 +2060,6 @@ MonoBehaviour:
   round: 1
   enemiesPerRound: 5
   roundText: {fileID: 529382228}
-  roundAnimator: {fileID: 529382230}
   roundSFX: {fileID: 0}
 --- !u!4 &1054803813
 Transform:
