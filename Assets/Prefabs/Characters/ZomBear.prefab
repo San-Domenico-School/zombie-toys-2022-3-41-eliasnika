@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7253350032864545763}
   - component: {fileID: 4698852536632536091}
   - component: {fileID: 2408819314060950770}
+  - component: {fileID: 7896940775560262389}
   m_Layer: 9
   m_Name: ZomBear
   m_TagString: Enemy
@@ -288,6 +289,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7896940775560262389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438024799653128603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760198d789cdfd7479b52b5e088250e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 2
+  attackDamage: 10
+  attackCooldown: 1.5
 --- !u!1001 &6432380341927103452
 PrefabInstance:
   m_ObjectHideFlags: 0
